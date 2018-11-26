@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+}
+.fixed{
+    width: 75%;
+}
+.flex-item{
+    flex-grow: 1;
+}
+
+
+td {
+	height: 20px;
+    width: 20px;
+     opacity: 0.7;
+  transition: 0.2s;
+}
+
+td:hover {opacity: 1}
+
+td.kaukolampo {
+background-color: #286D72;
+}
+
+td.oljylammitys {
+background-color: #3E9FA8;
+}
+
+td.sahkolammitys{
+background-color: #5DC6CC;
+}
+
+
+td.kulutussahko {
+background-color: #9FD9DA;
+}
+
+td.liikenne {
+background-color: #E9A5CA;
+
+}
+
+td.teollisuus {
+background-color: #E281B6;
+
+}
+
+td.jatteenkasittely {
+background-color: #680D48;
+}
+
+
+td.maatalous {
+background-color: #680D48;
+}
+
+
